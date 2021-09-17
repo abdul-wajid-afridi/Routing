@@ -1,0 +1,23 @@
+/* nav {
+  display: flex;
+  justify-content: stretch;
+  padding: 15px;
+  background: linear-gradient(
+    to right,
+    rgb(145, 255, 122),
+    rgb(17, 10, 170),
+    rgb(28, 89, 222)
+  );
+  color: white;
+  align-items: center;
+}
+.link-styles {
+  margin: 0 1em;
+  text-decoration: none;
+  background: radial-gradient(red, green, blue);
+} */
+
+.navbar-nav > li > a {
+  color: rgb(255, 55, 55) !important;
+  font-size: 800;
+}

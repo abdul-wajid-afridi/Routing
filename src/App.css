@@ -1,0 +1,120 @@
+.fnt {
+  color: #282c34;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bgcover {
+  height: 1200px;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: darkseagreen;
+}
+.btn {
+  background-color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid saddlebrown;
+}
+.btn:hover {
+  background: lightgrey;
+  color: black;
+  border: 2px solid red;
+  box-shadow: 12px 10px 15px;
+}
+
+.App {
+  text-align: center;
+}
+.myImage {
+  width: 600px;
+  height: 600px;
+  background-image: url("./assests/logoreact.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+  animation: App-logo-spin infinite 20s linear;
+  border-radius: 25px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.LinksStyle {
+  color: "red";
+  margin: 20;
+  text-decoration: "none";
+  font-weight: "bold";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav > li > a {
+  color: black !important;
+  font-family: sans-serif;
+  font-weight: 800;
+  border-top: 3px solid transparent;
+  transition: 1s ease;
+}
+.navbar-nav li a:hover {
+  border-top: 3px solid black;
+}
+.container-wraper {
+  height: 90vh;
+  background: url(./assests/img8.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.container-text {
+  color: rgb(255, 255, 255) !important;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+.type-text {
+  font-weight: 800;
+  font-size: 20px;
+}
